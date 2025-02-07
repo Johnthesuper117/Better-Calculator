@@ -159,6 +159,3 @@ def solve(problem):
             print(problemList)
             i -= 1
     return solution
-print("Make sure to use ' ' to separate operators, brackets, and numbers. Use * for multiplication, / for division, ^ for powers, sqrt for square root and pi for Pi")    
-problem = input("Enter math problem: \n")
-print(problem + " = " + str(solve(problem)))
