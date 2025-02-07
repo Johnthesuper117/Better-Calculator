@@ -12,9 +12,3 @@ def knowledge(what):
             FibonacciSequence.append(FibonacciSequence[-1] + FibonacciSequence[-2])
             t -= 1
         print(f"{FibonacciSequence}")
-        
-
-
-print("What would you like to learn?")
-action = input(f"Here is a list of actions:\n\n - Perfect Square (1)\n\n - Fibonacci Sequence (2)\n\n")
-print(f"\n{knowledge(action)}")
