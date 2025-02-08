@@ -3,6 +3,7 @@ import math
 #Notes:
 #Fractions not included
 #Can't solve for variables
+#Make it check left to right for more accurate PEMDAS
 def solve(problem):
     problemList = problem.split()
     print(problemList)
