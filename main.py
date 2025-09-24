@@ -1,5 +1,5 @@
 import calculate as c
-from mathKnowledge import __main__ as mK
+import mathKnowledge as mK
 usercommand = ""
 
 
