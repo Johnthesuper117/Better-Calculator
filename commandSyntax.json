@@ -1,18 +1,25 @@
 {
-    "CALCULATE": {
-        "description": "Perform a calculation",
-        "parameters": {
-            "expression": "The mathematical expression to evaluate"
+    "COMMANDS": {
+        "CALCULATE": {
+            "description": "Perform a calculation",
+            "parameters": {
+                "expression": "The mathematical expression to evaluate"
+            }
+        },
+        "LEARN": {
+            "description": "Learn a new mathematical concept",
+            "parameters": {
+                "topic": "The topic to learn about"
+            }
+        },
+        "END": {
+            "description": "End the program",
+            "parameters": {}
         }
     },
-    "LEARN": {
-        "description": "Learn a new mathematical concept",
-        "parameters": {
-            "topic": "The topic to learn about"
-        }
-    },
-    "END": {
-        "description": "End the program",
-        "parameters": {}
+    "SYNTAX": {
+        "CALCULATE": "CALCULATE <expression>",
+        "LEARN": "LEARN <topic>",
+        "END": "END"
     }
 }

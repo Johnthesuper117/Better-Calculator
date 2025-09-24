@@ -4,11 +4,11 @@ import os
 import sys
 import json
 
-if not os.path.exists("commands.json"):
-  print("Error: commands.json file not found.")
+if not os.path.exists("commandSyntax.json"):
+  print("Error: commandSyntax.json file not found.")
   sys.exit(1)
 
-jsonFile = open("commands.json", "r")
+jsonFile = open("commandSyntax.json", "r")
 commands = json.load(jsonFile)
 
 usercommand = ""
