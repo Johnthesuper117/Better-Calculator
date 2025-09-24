@@ -1,8 +1,13 @@
 import calculate as c
 import knowledge as mK
+import os
+import sys
+import json
+
 usercommand = ""
 
-
+jsonFile = open("commands.json", "r")
+commands = json.load(jsonFile)
 
 """
 while usercommand.upper() != "END":
