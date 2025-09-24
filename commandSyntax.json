@@ -1,21 +1,21 @@
 {
     "CALCULATE": {
         "description": "Perform a calculation",
-        "shortcut": "c",
+        "shortcut": "-c",
         "parameters": {
             "problem": ""
         }
     },
     "LEARN": {
         "description": "Learn a new mathematical concept",
-        "shortcut": "l",
+        "shortcut": "-l",
         "parameters": {
             "topic": ""
         }
     },
     "END": {
         "description": "End the program",
-        "shortcut": "e",
+        "shortcut": "-e",
         "parameters": {}
     }
 }
