@@ -1,11 +1,11 @@
-from sympy import sympify, Symbol, solve, parse_expr
+from sympy import sympify
 import numpy as np
 import sys
 
 def calculate(expression: str):
     try:
         sym_expression = sympify(expression)
-        return sym_expression.evalf()
+        return sym_expression
     except Exception as e:
         return f"Error in calculation: {e}"
 

@@ -1,4 +1,4 @@
-from calculator import calculate as c
+import calculate as c
 import know as k
 import os
 import sys

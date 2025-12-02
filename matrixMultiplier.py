@@ -1,4 +1,4 @@
-#The Matrix class acts as its own variable type, mimicing the math array
+
 class Matrix:
     
     def __init__(self, name:str, rows:int, columns:int, elements):
