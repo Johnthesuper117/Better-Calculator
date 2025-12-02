@@ -1,5 +1,5 @@
-from calculate import calculate as c
-import knowledge as k
+from calculator import calculate as c
+import know as k
 import os
 import sys
 import json

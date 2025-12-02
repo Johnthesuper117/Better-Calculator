@@ -1,4 +1,6 @@
-from sympy import sympify, Symbol, solve
+from sympy import sympify, Symbol, solve, parse_expr
+import numpy as np
+import sys
 
 def calculate(expression: str):
     try:
@@ -6,6 +8,10 @@ def calculate(expression: str):
         return sym_expression.evalf()
     except Exception as e:
         return f"Error in calculation: {e}"
+
+
+if __name__ == '__main__':
+    print(calculate(sys.argv[1]))
 
 # Evaluating a simple expression
 #expression_string = "x**2 - 4"
